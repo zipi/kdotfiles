@@ -26,3 +26,5 @@ rm -rf ~/.vim
 ln -s ~/dotfiles/vim ~/.vim
 rm ~/.zshrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
+rm ~/.bash_profile
+ln -s ~/dotfiles/bash_profile ~/.bash_profile
