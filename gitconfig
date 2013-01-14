@@ -1,5 +1,7 @@
 [user]
 	name = Scott Moe
-	email = smoe868@gmail.com
+	email = scott.moe@osgcorp.com
 [diff]
 	color = true
+[color]
+	ui = true

@@ -20,8 +20,6 @@ rm ~/.viminfo
 ln -s ~/dotfiles/viminfo ~/.viminfo
 rm ~/.zshenv
 ln -s ~/dotfiles/zshenv ~/.zshenv
-rm -rf ~/.vimbundles
-ln -s ~/dotfiles/vimbundles ~/.vimbundles
 rm -rf ~/.vim
 ln -s ~/dotfiles/vim ~/.vim
 rm ~/.zshrc
