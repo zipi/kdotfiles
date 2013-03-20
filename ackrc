@@ -1,2 +1,4 @@
 --type-add
-ruby=haml,sass,builder,rake
+ruby=haml,sass,builder,rake,feature
+--type-add
+javascript=js,coffee
