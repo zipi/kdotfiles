@@ -4,25 +4,13 @@ rm ~/.vimrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
 rm ~/.ackrc
 ln -s ~/dotfiles/ackrc ~/.ackrc
-rm ~/.autospec
-ln -s ~/dotfiles/autospec ~/.autospec
-rm ~/.bashrc.local
-ln -s ~/dotfiles/bashrc.local ~/.bashrc.local
+rm ~/.viminfo
+ln -s ~/dotfiles/vim ~/.vim
 rm ~/.bashrc
 ln -s ~/dotfiles/bashrc ~/.bashrc
-rm ~/.gitconfig
-ln -s ~/dotfiles/gitconfig ~/.gitconfig
-rm ~/.hashrc
-ln -s ~/dotfiles/hashrc ~/.hashrc
-rm ~/.profile
-ln -s ~/dotfiles/profile ~/.profile
-rm ~/.viminfo
-ln -s ~/dotfiles/viminfo ~/.viminfo
-rm ~/.zshenv
-ln -s ~/dotfiles/zshenv ~/.zshenv
-rm -rf ~/.vim
-ln -s ~/dotfiles/vim ~/.vim
-rm ~/.zshrc
-ln -s ~/dotfiles/zshrc ~/.zshrc
-rm ~/.bash_profile
-ln -s ~/dotfiles/bash_profile ~/.bash_profile
+rm ~/.bashrc.local
+ln -s ~/dotfiles/bashrc.local ~/.bashrc.local
+rm ~/.bash_aliases
+ln -s ~/dotfiles/bash_aliases ~/.bash_aliases
+rm ~/.git-prompt.sh
+ln -s ~/dotfiles/git-prompt.sh ~/.git-prompt.sh
