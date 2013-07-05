@@ -1,5 +1,6 @@
 # kubuntu specifics
 alias say='espeak >& /dev/null'
+alias ack='ack-grep'
 
 #sno work
 alias snossh='ssh -i ~/.ssh/simplified/id_rsa'

@@ -14,3 +14,5 @@ rm ~/.bash_aliases
 ln -s ~/dotfiles/bash_aliases ~/.bash_aliases
 rm ~/.git-prompt.sh
 ln -s ~/dotfiles/git-prompt.sh ~/.git-prompt.sh
+rm ~/.xmodmap
+ln -s ~/dotfiles/xmodmap ~/.xmodmap
