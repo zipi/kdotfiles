@@ -19,10 +19,12 @@ alias gpr='git pull --rebase'
 alias gst='git status'
 alias gsp='git status --porcelain'
 
-# bundler shortcuts
-alias ber='bundle exec rake'
-alias be='bundle exec'
-alias bmt='bundle exec rake db:migrate; bundle exec rake test && say "yaba dabba doo"'
+# node coffee zombie express
+alias ns='(coffee --compile --watch routes/&); nodemon app.js' # node server
 
-alias glfull='git pull && bundle && rake db:drop db:create:all db:migrate; rake db:seed; rake test:hot:db:prepare; time rake test:hot && say done'
-alias rf='git pull && bundle && rake db:migrate; rake test:hot:db:prepare; time rake test:hot && say whoop'
+
+
+function viewmd() {
+  markdown $1 | w3m -T text/html
+}
+alias lmd=viewmd
