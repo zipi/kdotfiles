@@ -10,6 +10,7 @@
 hi clear
 
 set background=light
+highlight clear
 if version > 580
     " no guarantees for version 5.8 and below, but this makes it stop
     " complaining
@@ -20,7 +21,7 @@ if version > 580
 endif
 let g:colors_name="github"
 
-hi Normal       guifg=#000000 guibg=#F8F8FF
+hi Normal gui=NONE  guifg=black  guibg=white
 
 " {{{ Cursor
 hi Cursor		guibg=#444454 guifg=#F8F8FF

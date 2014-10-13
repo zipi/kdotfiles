@@ -22,6 +22,7 @@ alias gsp='git status --porcelain'
 # node coffee zombie express
 alias ns='(coffee --compile --watch routes/&); nodemon app.js' # node server
 
+alias open='xdg-open'
 
 
 function viewmd() {
